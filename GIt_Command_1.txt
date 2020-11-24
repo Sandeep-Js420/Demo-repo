@@ -2,4 +2,47 @@ Date-23-11-2020
 Today sessions :GIT bash Commands
 ---------------------------------------
 We are having several git commands to perform operations with git repository
- 
+
+1.How to create a git repository?
+----------------------------------------------------------
+Create a directory to contain the project.
+Go into the new directory.
+Type git init.
+Write some code.
+Type git add to add the files (see the typical use page).
+Type git commit
+
+--------------------------------------------------------
+create repository in github.com
+-------------------------------------------------------
+GIT Repo url:https://github.com/Sandeep-Js420/Demo-repo.git
+
+GIT BASH Commands
+------------------------------------------------------
+git help--> it provides frequently used several git commands
+
+git help <cmd-name>-->it opens documention of particular command
+
+git init ---->it is used to create empty repository or re-intialize existing repo
+
+git status--This command will display status of current repository
+
+---------------------------------------------------------------
+staged Files - Files which are added and ready to commit.
+             This file name will be displayed in green color
+---------------------------------------------------------------
+un- staged Files-Modify file will be displayed here  we need to staged files to commit.
+             This file name will be displayed in red color
+----------------------------------------------------------------
+un-tracked Files -- Newly Created Files,we need to stage them to commit.
+  This file name will be displayed in red color
+------------------------------------------------------------------
+
+
+git add: This command is used to add file to staging area.
+syntax:  git add <file name>
+         git add --a ===> to add all files at a time.(all file)
+
+git rm:THis command is used to un-stage Newly Created files
+syntax: git rm --cached <filename>
+        git rm --cached *  (all file)       
