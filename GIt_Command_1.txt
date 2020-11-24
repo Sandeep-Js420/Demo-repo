@@ -46,3 +46,15 @@ syntax:  git add <file name>
 git rm:THis command is used to un-stage Newly Created files
 syntax: git rm --cached <filename>
         git rm --cached *  (all file)       
+
+
+git commit:  THis command is used to commit our changes to git local repository.
+
+syntax: git commit -m "commit-msg"
+note : When we execute commit command it will consider all files which are in staging area .
+note : GIT local repository will be avilable is our machine only.
+
+To commit our files to remote repository we should execute celow commands 
+
+1> git remote add <repo-url> (thsi require only first time);
+2> git push -u origin master (This is used to move changes from local to central).
